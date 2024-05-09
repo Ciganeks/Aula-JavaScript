@@ -1,5 +1,5 @@
 document.getElementById("meuFormulario").addEventListener("submit", function(event){
-    event.preventDefault();  // Previne o comportamento padrão de envio do formulário
+    event.preventDefault();
 
     const campoA = parseFloat(document.getElementById("campoA").value);
     const campoB = parseFloat(document.getElementById("campoB").value);
